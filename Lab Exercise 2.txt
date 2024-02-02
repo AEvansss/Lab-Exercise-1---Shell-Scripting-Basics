@@ -1,0 +1,37 @@
+Lab Exercise 2 - Shell Control Structure
+
+Program Description
+
+Your task is to create an interactive BASH script that would ask the user to input a counting number n. 
+If n is greater than 0, your script must compute the sum and the product of even counting numbers up to 
+n and display them. Otherwise your program must display a goodbye message and halt.
+
+Hint: To halt use the function exit.
+
+Your script must also fetch one command line argument. This parameter is the name that would be 
+displayed on the welcome greetings when the script runs (see sample run). If the user did not provide 
+any argument or has provided more than one argument your program must output the following:
+
+Usage: <name_of_script> name
+This script requires one argument.
+
+Sample Run 1:
+
+$ ./E2_Garay.sh Raph
+Welcome, Raph!
+Enter a counting number: 4
+The sum of even counting numbers up to 4 is 6.
+The product of even counting numbers up to 4 is 8.
+Enter a counting number: 9
+The sum of even counting numbers up to 9 is 20.
+The product of even counting numbers up to 9 is 384.
+Enter a counting number: -1
+Oops! -1 is not a counting number. Adios!
+
+Sample Run 2:
+
+$ ./E2_Garay.sh
+Usage: ./E2_Garay.sh name
+This script requires one argument.
+
+Documentation and Submission
